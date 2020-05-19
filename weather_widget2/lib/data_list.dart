@@ -1,8 +1,7 @@
 class WeatherList {
-  String name;
-  String symbol;
-  int rank;
-  double price;
+  String cod;
+  int humiditi;
+  int cnt;
 
-  WeatherList({this.name, this.symbol, this.rank, this.price});
+  WeatherList({this.cod, this.humiditi, this.cnt});
 }
